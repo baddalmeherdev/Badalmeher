@@ -1,865 +1,692 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-    <!-- ============================================ -->
-    <!-- SECURITY & PERFORMANCE META                  -->
-    <!-- ============================================ -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Content Security Policy - Adjust based on your hosting -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' https://images.unsplash.com data:; connect-src 'self'; frame-src 'self' https://docs.google.com;">
-
-    <!-- ============================================ -->
-    <!-- SEO META TAGS                                -->
-    <!-- ============================================ -->
-    <title>Badal Meher | Tech Entrepreneur, Founder & Creator</title>
-    <meta name="description" content="Badal Meher - Tech entrepreneur, startup founder, and digital creator. Building the future through innovative technology, creative ventures, and entrepreneurial excellence.">
-    <meta name="keywords" content="Badal Meher, Tech Entrepreneur, Startup Founder, Digital Creator, Technology, Innovation, Portfolio">
-    <meta name="author" content="Badal Meher">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://badalmeher.com">
-
-    <!-- ============================================ -->
-    <!-- OPEN GRAPH / SOCIAL META                     -->
-    <!-- ============================================ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Discoverability -->
+    <title>Badal Meher | App Developer & Indie Builder from Odisha</title>
+    <meta name="description" content="Badal Meher (baddalmeher) — Android app developer, indie builder, and founder of MeherDevelopStudio. Creator of Tagown, ToolZen, and Blind Enemies. Based in Odisha, India.">
+    <meta name="keywords" content="Badal Meher, baddalmeher, baddal meher, Meher Developer Studio, Tagown, ToolZen, Blind Enemies, Android developer Odisha">
+    <link rel="canonical" href="https://badalmeher.com"> <!-- User can update this -->
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://badalmeher.com">
-    <meta property="og:title" content="Badal Meher | Tech Entrepreneur & Founder">
-    <meta property="og:description" content="Building the future through innovative technology and entrepreneurial excellence. Explore my portfolio, ventures, and creative work.">
-    <meta property="og:image" content="https://badalmeher.com/assets/images/og-image.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="Badal Meher">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Badal Meher | App Developer & Indie Builder">
+    <meta property="og:description" content="Android app developer and founder of MeherDevelopStudio. Building tools that solve real problems.">
+    <meta property="og:image" content="profile1.jpg">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@badalmeher">
-    <meta name="twitter:title" content="Badal Meher | Tech Entrepreneur & Founder">
-    <meta name="twitter:description" content="Building the future through innovative technology and entrepreneurial excellence.">
-    <meta name="twitter:image" content="https://badalmeher.com/assets/images/og-image.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://badalmeher.com">
+    <meta property="twitter:title" content="Badal Meher | App Developer & Indie Builder">
+    <meta property="twitter:description" content="Android app developer and founder of MeherDevelopStudio. Building tools that solve real problems.">
+    <meta property="twitter:image" content="profile1.jpg">
 
-    <!-- ============================================ -->
-    <!-- FAVICON & ICONS                              -->
-    <!-- ============================================ -->
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-    <meta name="theme-color" content="#0f172a">
-    <meta name="msapplication-TileColor" content="#0f172a">
+    <!-- Security & Meta -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: https:; frame-src https://docs.google.com;">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
 
-    <!-- ============================================ -->
-    <!-- PRECONNECT FOR PERFORMANCE                   -->
-    <!-- ============================================ -->
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Badal Meher",
+      "alternateName": "Baddal Meher",
+      "jobTitle": "App Developer",
+      "url": "https://badalmeher.com",
+      "sameAs": [
+        "https://www.instagram.com/baddalmeher?igsh=MWJ6c2NjaGR3OXU2Yw==",
+        "https://www.facebook.com/profile.php?id=100093795970471&mibextid=ZbWKwL",
+        "https://www.snapchat.com/add/baddalmeher?share_id=FjAW2N7Ysio&locale=en-IN",
+        "https://www.threads.com/@baddalmeher",
+        "https://x.com/MeherBadda46460"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Odisha",
+        "addressCountry": "India"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "MeherDevelopStudio"
+      }
+    }
+    </script>
+
+    <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="https://images.unsplash.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-
-    <!-- ============================================ -->
-    <!-- FONTS                                        -->
-    <!-- ============================================ -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- ============================================ -->
-    <!-- STYLES                                       -->
-    <!-- ============================================ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- ============================================ -->
-    <!-- SCHEMA.ORG STRUCTURED DATA                   -->
-    <!-- ============================================ -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Badal Meher",
-        "url": "https://badalmeher.com",
-        "image": "https://badalmeher.com/assets/images/profile.jpg",
-        "sameAs": [
-            "https://www.linkedin.com/in/badalmeher",
-            "https://github.com/badalmeher",
-            "https://twitter.com/badalmeher",
-            "https://www.youtube.com/@badalmeher",
-            "https://www.instagram.com/badalmeher"
-        ],
-        "jobTitle": "Tech Entrepreneur & Founder",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Independent Ventures"
-        },
-        "description": "Tech entrepreneur, startup founder, and digital creator building innovative technology solutions.",
-        "knowsAbout": ["Technology", "Startups", "Entrepreneurship", "Software Development", "Digital Marketing"],
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "Technology University"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1a237e',
+                        accent: '#2979ff',
+                        highlight: '#40c4ff',
+                        dark: '#0a0e1a',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
         }
-    }
     </script>
 
-    <!-- ============================================ -->
-    <!-- WEBSITE STRUCTURED DATA                      -->
-    <!-- ============================================ -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Badal Meher Portfolio",
-        "url": "https://badalmeher.com",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://badalmeher.com/?q={search_term_string}",
-            "query-input": "required name=search_term_string"
+    <style>
+        :root {
+            --glass-bg: rgba(26, 35, 126, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --glass-glow: rgba(41, 121, 255, 0.3);
         }
-    }
-    </script>
+
+        body {
+            background-color: #0a0e1a;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphism */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 20px var(--glass-glow);
+            transform: translateY(-5px);
+        }
+
+        /* Aurora Background */
+        .aurora-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 20% 30%, rgba(26, 35, 126, 0.15) 0%, transparent 40%),
+                        radial-gradient(circle at 80% 70%, rgba(41, 121, 255, 0.1) 0%, transparent 40%);
+            animation: aurora 20s infinite alternate ease-in-out;
+        }
+
+        @keyframes aurora {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1) translate(2%, 2%); }
+        }
+
+        /* Typewriter Animation */
+        .typewriter::after {
+            content: '|';
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Profile Ring Animation */
+        .profile-ring {
+            position: relative;
+        }
+
+        .profile-ring::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px solid var(--accent);
+            border-radius: 50%;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 0.4; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+
+        /* Section Fade-in */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Image Protection */
+        img {
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0e1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1a237e;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2979ff;
+        }
+
+        /* Placeholder Shimmer */
+        .shimmer {
+            background: linear-gradient(90deg, #1a237e 25%, #2979ff 50%, #1a237e 75%);
+            background-size: 200% 100%;
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        /* Lightbox (Basic) */
+        #lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+            box-shadow: 0 0 30px rgba(41, 121, 255, 0.5);
+        }
+    </style>
 </head>
+<body class="font-sans">
 
-<body>
-    <!-- ============================================ -->
-    <!-- LOADING SCREEN                               -->
-    <!-- ============================================ -->
-    <div id="loading-screen" class="loading-screen" role="status" aria-label="Loading website">
-        <div class="loading-container">
-            <div class="loading-logo">
-                <span class="loading-logo-text">BM</span>
+    <div class="aurora-bg"></div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center shadow-[0_0_15px_rgba(41,121,255,0.6)] group-hover:scale-110 transition-transform">
+                    <span class="font-heading font-bold text-white">BM</span>
+                </div>
+                <span class="font-heading font-bold text-xl tracking-tight">Badal Meher</span>
+            </a>
+            
+            <!-- Desktop Links -->
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-accent transition-colors">Home</a>
+                <a href="#about" class="hover:text-accent transition-colors">About</a>
+                <a href="#apps" class="hover:text-accent transition-colors">Apps</a>
+                <a href="#contact" class="hover:text-accent transition-colors">Contact</a>
             </div>
-            <div class="loading-bar-container">
-                <div class="loading-bar" id="loading-bar"></div>
-            </div>
-            <p class="loading-text">Loading Experience...</p>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-    </div>
 
-    <!-- ============================================ -->
-    <!-- SCROLL PROGRESS BAR                          -->
-    <!-- ============================================ -->
-    <div class="scroll-progress-container" aria-hidden="true">
-        <div class="scroll-progress-bar" id="scroll-progress"></div>
-    </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full glass-card rounded-none border-x-0 border-b-1 py-6 px-6 flex flex-col space-y-4 shadow-2xl">
+            <a href="#home" class="mobile-link text-lg">Home</a>
+            <a href="#about" class="mobile-link text-lg">About</a>
+            <a href="#apps" class="mobile-link text-lg">Apps</a>
+            <a href="#contact" class="mobile-link text-lg">Contact</a>
+        </div>
+    </nav>
 
-    <!-- ============================================ -->
-    <!-- CUSTOM CURSOR (Desktop Only)                 -->
-    <!-- ============================================ -->
-    <div class="custom-cursor" id="custom-cursor" aria-hidden="true"></div>
-    <div class="custom-cursor-trail" id="custom-cursor-trail" aria-hidden="true"></div>
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+        <div class="container mx-auto px-6 text-center z-10">
+            <div class="reveal active">
+                <div class="inline-block profile-ring mb-8">
+                    <img src="profile1.jpg" alt="Badal Meher" class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-accent shadow-2xl" onerror="this.src='https://via.placeholder.com/200/1a237e/ffffff?text=BM'; this.classList.add('shimmer')">
+                </div>
+                <h1 class="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-highlight">Badal Meher</span> 👋
+                </h1>
+                <div class="h-8 mb-8">
+                    <p id="typewriter" class="text-xl md:text-2xl text-gray-300 font-medium typewriter"></p>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 mb-8">
+                    <a href="#apps" class="px-8 py-3 bg-accent hover:bg-highlight text-white font-bold rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(41,121,255,0.4)]">
+                        View My Apps
+                    </a>
+                    <a href="#contact" class="px-8 py-3 border-2 border-accent text-accent hover:bg-accent hover:text-white font-bold rounded-full transition-all transform hover:scale-105">
+                        Contact Me
+                    </a>
+                </div>
+                <p class="text-gray-400 flex items-center justify-center">
+                    <i class="fas fa-map-marker-alt mr-2 text-accent"></i> Based in Odisha, India 🇮🇳
+                </p>
+            </div>
+        </div>
+        
+        <!-- Background Decoration -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce text-accent opacity-50">
+            <i class="fas fa-chevron-down text-2xl"></i>
+        </div>
+    </section>
 
-    <!-- ============================================ -->
-    <!-- NAVIGATION                                   -->
-    <!-- ============================================ -->
-    <header class="site-header" id="site-header">
-        <nav class="navbar" role="navigation" aria-label="Main navigation">
-            <div class="nav-container">
-                <a href="#hero" class="nav-logo" aria-label="Badal Meher Home">
-                    <span class="logo-text">Badal<span class="logo-accent">Meher</span></span>
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-dark/50">
+        <div class="container mx-auto px-6">
+            <h2 class="font-heading text-3xl md:text-4xl font-bold mb-16 text-center reveal">
+                About <span class="text-accent">Me</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Photo Grid -->
+                <div class="grid grid-cols-2 gap-4 reveal">
+                    <div class="space-y-4">
+                        <img src="photo1.jpg" alt="Badal Meher 1" class="w-full h-48 md:h-64 object-cover rounded-2xl glass-card cursor-pointer hover:scale-[1.02]" onclick="openLightbox(this.src)" onerror="this.src='https://via.placeholder.com/300x400/1a237e/ffffff?text=Photo+1'; this.classList.add('shimmer')">
+                        <img src="photo2.jpg" alt="Badal Meher 2" class="w-full h-64 md:h-80 object-cover rounded-2xl glass-card cursor-pointer hover:scale-[1.02]" onclick="openLightbox(this.src)" onerror="this.src='https://via.placeholder.com/300x500/1a237e/ffffff?text=Photo+2'; this.classList.add('shimmer')">
+                    </div>
+                    <div class="space-y-4 pt-8">
+                        <img src="photo3.jpg" alt="Badal Meher 3" class="w-full h-64 md:h-80 object-cover rounded-2xl glass-card cursor-pointer hover:scale-[1.02]" onclick="openLightbox(this.src)" onerror="this.src='https://via.placeholder.com/300x500/1a237e/ffffff?text=Photo+3'; this.classList.add('shimmer')">
+                        <img src="photo4.jpg" alt="Badal Meher 4" class="w-full h-48 md:h-64 object-cover rounded-2xl glass-card cursor-pointer hover:scale-[1.02]" onclick="openLightbox(this.src)" onerror="this.src='https://via.placeholder.com/300x400/1a237e/ffffff?text=Photo+4'; this.classList.add('shimmer')">
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div class="reveal">
+                    <p class="text-lg text-gray-300 leading-relaxed mb-8">
+                        I'm <span class="text-white font-bold">Badal Meher</span>, a passionate indie app developer and solo builder from Odisha, India. I create mobile apps, web platforms, and SaaS products under my studio <span class="text-accent font-bold">MeherDevelopStudio</span>.
+                    </p>
+                    <p class="text-lg text-gray-300 leading-relaxed mb-8">
+                        My mission is to build tools that solve real problems for real people. When I'm not coding, I'm exploring ideas, connecting with communities, and building the next big thing — one line of code at a time.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 glass-card text-sm font-bold text-highlight border-highlight/30">Android Dev</span>
+                        <span class="px-4 py-2 glass-card text-sm font-bold text-highlight border-highlight/30">Web Dev</span>
+                        <span class="px-4 py-2 glass-card text-sm font-bold text-highlight border-highlight/30">Firebase</span>
+                        <span class="px-4 py-2 glass-card text-sm font-bold text-highlight border-highlight/30">SaaS Builder</span>
+                        <span class="px-4 py-2 glass-card text-sm font-bold text-highlight border-highlight/30">Solo Founder</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section id="apps" class="py-24">
+        <div class="container mx-auto px-6">
+            <h2 class="font-heading text-3xl md:text-4xl font-bold mb-16 text-center reveal">
+                Apps I've <span class="text-accent">Built</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="glass-card overflow-hidden flex flex-col reveal">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="tagown_image.jpg" alt="Tagown" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" onerror="this.src='https://via.placeholder.com/400x200/1a237e/ffffff?text=Tagown'; this.classList.add('shimmer')">
+                        <div class="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">🚀 Live Project</div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="font-heading text-xl font-bold mb-2">Tagown</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                            A QR-based Smart Vehicle Ecosystem. Physical stickers link vehicle owners to a real-time Firebase notification system. Scan any sticker to get instant owner contact — built for India's roads.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Android</span>
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Firebase</span>
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">QR Tech</span>
+                        </div>
+                        <a href="#" class="w-full py-3 text-center glass-card border-accent/30 hover:bg-accent text-white font-bold transition-all">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card overflow-hidden flex flex-col reveal">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="toolzen_image.jpg" alt="ToolZen" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" onerror="this.src='https://via.placeholder.com/400x200/1a237e/ffffff?text=ToolZen'; this.classList.add('shimmer')">
+                        <div class="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">🛠️ Utility App</div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="font-heading text-xl font-bold mb-2">ToolZen</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                            A powerful all-in-one utility toolkit app. Built for productivity on the go — packed with smart tools designed for everyday use on Android.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Android</span>
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Utility</span>
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Tools</span>
+                        </div>
+                        <a href="#" class="w-full py-3 text-center glass-card border-accent/30 hover:bg-accent text-white font-bold transition-all">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass-card overflow-hidden flex flex-col reveal">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="blindenemies_image.jpg" alt="Blind Enemies" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" onerror="this.src='https://via.placeholder.com/400x200/1a237e/ffffff?text=Blind+Enemies'; this.classList.add('shimmer')">
+                        <div class="absolute top-4 right-4 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">🎮 Game</div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="font-heading text-xl font-bold mb-2">Blind Enemies</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                            An action-packed Android game where enemies can't see you coming. A unique mobile gaming experience crafted with pure passion and creativity.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Android</span>
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Game</span>
+                            <span class="text-[10px] uppercase tracking-wider font-bold text-accent">Indie</span>
+                        </div>
+                        <a href="#" class="w-full py-3 text-center glass-card border-accent/30 hover:bg-accent text-white font-bold transition-all">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social" class="py-24 bg-dark/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold mb-4">Find Me <span class="text-accent">Online</span></h2>
+                <p class="text-gray-400">Follow my journey across platforms 👇</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/baddalmeher?igsh=MWJ6c2NjaGR3OXU2Yw==" target="_blank" rel="noopener noreferrer" class="glass-card p-6 text-center group hover:border-[#E1306C]/50 reveal">
+                    <div class="text-3xl mb-4 text-gray-400 group-hover:text-[#E1306C] transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h4 class="font-bold text-sm mb-1">Instagram</h4>
+                    <p class="text-[10px] text-gray-500 mb-4">@baddalmeher</p>
+                    <span class="text-[10px] font-bold text-accent group-hover:underline">Follow</span>
                 </a>
 
-                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                </button>
-
-                <ul class="nav-menu" id="nav-menu" role="menubar">
-                    <li role="none"><a href="#hero" class="nav-link" role="menuitem" data-section="hero">Home</a></li>
-                    <li role="none"><a href="#about" class="nav-link" role="menuitem" data-section="about">About</a></li>
-                    <li role="none"><a href="#gallery" class="nav-link" role="menuitem" data-section="gallery">Gallery</a></li>
-                    <li role="none"><a href="#social" class="nav-link" role="menuitem" data-section="social">Connect</a></li>
-                    <li role="none"><a href="#contact" class="nav-link nav-cta" role="menuitem" data-section="contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <!-- ============================================ -->
-    <!-- MAIN CONTENT                                 -->
-    <!-- ============================================ -->
-    <main id="main-content">
-
-        <!-- ============================================ -->
-        <!-- HERO SECTION                                 -->
-        <!-- ============================================ -->
-        <section id="hero" class="hero-section" aria-label="Hero section">
-            <canvas id="particle-canvas" class="particle-canvas" aria-hidden="true"></canvas>
-            <div class="hero-gradient-overlay" aria-hidden="true"></div>
-
-            <div class="hero-content">
-                <div class="hero-badge reveal-up">
-                    <span class="badge-dot"></span>
-                    <span class="badge-text">Available for Opportunities</span>
-                </div>
-
-                <h1 class="hero-title">
-                    <span class="title-greeting reveal-up">Hello, I'm</span>
-                    <span class="title-name reveal-up" id="hero-name">Badal Meher</span>
-                </h1>
-
-                <div class="hero-typing-container reveal-up">
-                    <span class="typing-prefix">I build </span>
-                    <span class="typing-text" id="typing-text"></span>
-                    <span class="typing-cursor">|</span>
-                </div>
-
-                <p class="hero-description reveal-up">
-                    Tech entrepreneur, startup founder, and digital creator passionate about building 
-                    innovative solutions that shape the future of technology and human experience.
-                </p>
-
-                <div class="hero-actions reveal-up">
-                    <a href="#contact" class="btn btn-primary">
-                        <span class="btn-text">Let's Collaborate</span>
-                        <span class="btn-icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
-                    </a>
-                    <a href="#about" class="btn btn-secondary">
-                        <span class="btn-text">Explore My Work</span>
-                    </a>
-                </div>
-
-                <div class="hero-stats reveal-up">
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="50">0</span>
-                        <span class="stat-suffix">+</span>
-                        <span class="stat-label">Projects Delivered</span>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/profile.php?id=100093795970471&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" class="glass-card p-6 text-center group hover:border-[#1877F2]/50 reveal">
+                    <div class="text-3xl mb-4 text-gray-400 group-hover:text-[#1877F2] transition-colors">
+                        <i class="fab fa-facebook"></i>
                     </div>
-                    <div class="stat-divider" aria-hidden="true"></div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="8">0</span>
-                        <span class="stat-suffix">+</span>
-                        <span class="stat-label">Years Experience</span>
+                    <h4 class="font-bold text-sm mb-1">Facebook</h4>
+                    <p class="text-[10px] text-gray-500 mb-4">Badal Meher</p>
+                    <span class="text-[10px] font-bold text-accent group-hover:underline">Connect</span>
+                </a>
+
+                <!-- Snapchat -->
+                <a href="https://www.snapchat.com/add/baddalmeher?share_id=FjAW2N7Ysio&locale=en-IN" target="_blank" rel="noopener noreferrer" class="glass-card p-6 text-center group hover:border-[#FFFC00]/50 reveal">
+                    <div class="text-3xl mb-4 text-gray-400 group-hover:text-[#FFFC00] transition-colors">
+                        <i class="fab fa-snapchat"></i>
                     </div>
-                    <div class="stat-divider" aria-hidden="true"></div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="100">0</span>
-                        <span class="stat-suffix">K+</span>
-                        <span class="stat-label">Community Reach</span>
+                    <h4 class="font-bold text-sm mb-1">Snapchat</h4>
+                    <p class="text-[10px] text-gray-500 mb-4">@baddalmeher</p>
+                    <span class="text-[10px] font-bold text-accent group-hover:underline">Add</span>
+                </a>
+
+                <!-- Threads -->
+                <a href="https://www.threads.com/@baddalmeher" target="_blank" rel="noopener noreferrer" class="glass-card p-6 text-center group hover:border-white/50 reveal">
+                    <div class="text-3xl mb-4 text-gray-400 group-hover:text-white transition-colors">
+                        <i class="fab fa-threads"></i>
                     </div>
-                </div>
-            </div>
+                    <h4 class="font-bold text-sm mb-1">Threads</h4>
+                    <p class="text-[10px] text-gray-500 mb-4">@baddalmeher</p>
+                    <span class="text-[10px] font-bold text-accent group-hover:underline">Follow</span>
+                </a>
 
-            <div class="hero-scroll-indicator" aria-hidden="true">
-                <div class="scroll-mouse">
-                    <div class="scroll-wheel"></div>
-                </div>
-                <span class="scroll-text">Scroll to explore</span>
-            </div>
-
-            <div class="hero-floating-elements" aria-hidden="true">
-                <div class="float-element float-1"><i class="fas fa-code"></i></div>
-                <div class="float-element float-2"><i class="fas fa-rocket"></i></div>
-                <div class="float-element float-3"><i class="fas fa-lightbulb"></i></div>
-                <div class="float-element float-4"><i class="fas fa-chart-line"></i></div>
-            </div>
-        </section>
-
-        <!-- ============================================ -->
-        <!-- ABOUT SECTION                                -->
-        <!-- ============================================ -->
-        <section id="about" class="about-section" aria-labelledby="about-heading">
-            <div class="section-container">
-                <div class="section-header reveal-up">
-                    <span class="section-eyebrow">About Me</span>
-                    <h2 id="about-heading" class="section-title">Visionary Entrepreneur &<br><span class="title-highlight">Technology Leader</span></h2>
-                </div>
-
-                <div class="about-grid">
-                    <div class="about-story reveal-left">
-                        <div class="story-card glass-card">
-                            <div class="card-icon">
-                                <i class="fas fa-user-astronaut" aria-hidden="true"></i>
-                            </div>
-                            <h3 class="card-title">My Story</h3>
-                            <p class="card-text">
-                                From writing my first line of code to leading multiple tech ventures, my journey 
-                                has been driven by an insatiable curiosity and a desire to solve real-world problems 
-                                through technology. I believe in the power of innovation to transform lives and 
-                                create meaningful impact at scale.
-                            </p>
-                            <div class="card-glow" aria-hidden="true"></div>
-                        </div>
+                <!-- X / Twitter -->
+                <a href="https://x.com/MeherBadda46460" target="_blank" rel="noopener noreferrer" class="glass-card p-6 text-center group hover:border-white/50 reveal col-span-2 md:col-span-1">
+                    <div class="text-3xl mb-4 text-gray-400 group-hover:text-white transition-colors">
+                        <i class="fab fa-x-twitter"></i>
                     </div>
-
-                    <div class="about-vision reveal-up">
-                        <div class="vision-card glass-card">
-                            <div class="card-icon">
-                                <i class="fas fa-eye" aria-hidden="true"></i>
-                            </div>
-                            <h3 class="card-title">Vision</h3>
-                            <p class="card-text">
-                                To build technology that empowers humanity. I envision a world where digital 
-                                innovation bridges gaps, creates opportunities, and drives sustainable progress 
-                                for communities worldwide.
-                            </p>
-                            <div class="card-glow" aria-hidden="true"></div>
-                        </div>
-                    </div>
-
-                    <div class="about-mission reveal-right">
-                        <div class="mission-card glass-card">
-                            <div class="card-icon">
-                                <i class="fas fa-bullseye" aria-hidden="true"></i>
-                            </div>
-                            <h3 class="card-title">Mission</h3>
-                            <p class="card-text">
-                                Creating exceptional digital experiences and scalable solutions that solve 
-                                complex challenges. I combine technical excellence with entrepreneurial 
-                                spirit to deliver products that make a difference.
-                            </p>
-                            <div class="card-glow" aria-hidden="true"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-section reveal-up">
-                    <h3 class="skills-heading">Technical Expertise</h3>
-                    <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4 class="skill-category-title">Development</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">JavaScript</span>
-                                <span class="skill-tag">TypeScript</span>
-                                <span class="skill-tag">React</span>
-                                <span class="skill-tag">Node.js</span>
-                                <span class="skill-tag">Python</span>
-                                <span class="skill-tag">Cloud Architecture</span>
-                            </div>
-                        </div>
-                        <div class="skill-category">
-                            <h4 class="skill-category-title">Entrepreneurship</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">Product Strategy</span>
-                                <span class="skill-tag">Growth Hacking</span>
-                                <span class="skill-tag">Team Leadership</span>
-                                <span class="skill-tag">Fundraising</span>
-                                <span class="skill-tag">Market Analysis</span>
-                                <span class="skill-tag">Business Dev</span>
-                            </div>
-                        </div>
-                        <div class="skill-category">
-                            <h4 class="skill-category-title">Creative</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">UI/UX Design</span>
-                                <span class="skill-tag">Brand Strategy</span>
-                                <span class="skill-tag">Content Creation</span>
-                                <span class="skill-tag">Video Production</span>
-                                <span class="skill-tag">Digital Marketing</span>
-                                <span class="skill-tag">SEO/Analytics</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mindset-section reveal-up">
-                    <div class="mindset-card glass-card">
-                        <div class="mindset-content">
-                            <div class="mindset-icon">
-                                <i class="fas fa-brain" aria-hidden="true"></i>
-                            </div>
-                            <h3 class="mindset-title">Entrepreneur Mindset</h3>
-                            <blockquote class="mindset-quote">
-                                "Success is not final, failure is not fatal: it is the courage to continue that counts."
-                            </blockquote>
-                            <p class="mindset-text">
-                                I approach every challenge with a growth mindset, viewing obstacles as opportunities 
-                                to learn and innovate. My entrepreneurial journey is defined by resilience, adaptability, 
-                                and an unwavering commitment to excellence. I believe in building products that matter, 
-                                leading teams with empathy, and always staying ahead of the curve.
-                            </p>
-                        </div>
-                        <div class="mindset-visual" aria-hidden="true">
-                            <div class="orbit-container">
-                                <div class="orbit-center"><i class="fas fa-star"></i></div>
-                                <div class="orbit orbit-1">
-                                    <div class="orbit-dot"><i class="fas fa-lightbulb"></i></div>
-                                </div>
-                                <div class="orbit orbit-2">
-                                    <div class="orbit-dot"><i class="fas fa-rocket"></i></div>
-                                </div>
-                                <div class="orbit orbit-3">
-                                    <div class="orbit-dot"><i class="fas fa-trophy"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============================================ -->
-        <!-- GALLERY SECTION                              -->
-        <!-- ============================================ -->
-        <section id="gallery" class="gallery-section" aria-labelledby="gallery-heading">
-            <div class="section-container">
-                <div class="section-header reveal-up">
-                    <span class="section-eyebrow">Featured Work</span>
-                    <h2 id="gallery-heading" class="section-title">Highlights &<br><span class="title-highlight">Moments</span></h2>
-                </div>
-
-                <div class="gallery-container">
-                    <div class="gallery-slider" id="gallery-slider">
-                        <div class="gallery-slide active">
-                            <div class="gallery-image-wrapper">
-                                <img 
-                                    src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop&q=80" 
-                                    alt="Tech startup workspace with modern equipment and ambient lighting" 
-                                    class="gallery-image"
-                                    loading="lazy"
-                                    width="800"
-                                    height="600"
-                                >
-                                <div class="gallery-overlay">
-                                    <span class="gallery-tag">Workspace</span>
-                                    <h3 class="gallery-title">Innovation Lab</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="gallery-slide">
-                            <div class="gallery-image-wrapper">
-                                <img 
-                                    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop&q=80" 
-                                    alt="Team collaboration in a modern tech office environment" 
-                                    class="gallery-image"
-                                    loading="lazy"
-                                    width="800"
-                                    height="600"
-                                >
-                                <div class="gallery-overlay">
-                                    <span class="gallery-tag">Team</span>
-                                    <h3 class="gallery-title">Building Together</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="gallery-slide">
-                            <div class="gallery-image-wrapper">
-                                <img 
-                                    src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop&q=80" 
-                                    alt="Professional speaking at a technology conference" 
-                                    class="gallery-image"
-                                    loading="lazy"
-                                    width="800"
-                                    height="600"
-                                >
-                                <div class="gallery-overlay">
-                                    <span class="gallery-tag">Speaking</span>
-                                    <h3 class="gallery-title">Tech Conference 2024</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="gallery-slide">
-                            <div class="gallery-image-wrapper">
-                                <img 
-                                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&q=80" 
-                                    alt="Data analytics dashboard showing business growth metrics" 
-                                    class="gallery-image"
-                                    loading="lazy"
-                                    width="800"
-                                    height="600"
-                                >
-                                <div class="gallery-overlay">
-                                    <span class="gallery-tag">Analytics</span>
-                                    <h3 class="gallery-title">Growth Metrics</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-controls">
-                        <button class="gallery-btn gallery-prev" id="gallery-prev" aria-label="Previous image">
-                            <i class="fas fa-chevron-left" aria-hidden="true"></i>
-                        </button>
-                        <div class="gallery-dots" id="gallery-dots">
-                            <button class="gallery-dot active" data-index="0" aria-label="Go to slide 1"></button>
-                            <button class="gallery-dot" data-index="1" aria-label="Go to slide 2"></button>
-                            <button class="gallery-dot" data-index="2" aria-label="Go to slide 3"></button>
-                            <button class="gallery-dot" data-index="3" aria-label="Go to slide 4"></button>
-                        </div>
-                        <button class="gallery-btn gallery-next" id="gallery-next" aria-label="Next image">
-                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============================================ -->
-        <!-- SOCIAL MEDIA HUB                             -->
-        <!-- ============================================ -->
-        <section id="social" class="social-section" aria-labelledby="social-heading">
-            <div class="section-container">
-                <div class="section-header reveal-up">
-                    <span class="section-eyebrow">Connect</span>
-                    <h2 id="social-heading" class="section-title">Let's Stay<br><span class="title-highlight">Connected</span></h2>
-                </div>
-
-                <div class="social-grid">
-                    <a href="https://youtube.com/@badalmeher" target="_blank" rel="noopener noreferrer" class="social-card youtube reveal-up" aria-label="Visit YouTube channel">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">YouTube</h3>
-                            <span class="social-handle">@badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://instagram.com/badalmeher" target="_blank" rel="noopener noreferrer" class="social-card instagram reveal-up" aria-label="Visit Instagram profile">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">Instagram</h3>
-                            <span class="social-handle">@badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://facebook.com/badalmeher" target="_blank" rel="noopener noreferrer" class="social-card facebook reveal-up" aria-label="Visit Facebook page">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">Facebook</h3>
-                            <span class="social-handle">/badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://linkedin.com/in/badalmeher" target="_blank" rel="noopener noreferrer" class="social-card linkedin reveal-up" aria-label="Visit LinkedIn profile">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">LinkedIn</h3>
-                            <span class="social-handle">/in/badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://github.com/badalmeher" target="_blank" rel="noopener noreferrer" class="social-card github reveal-up" aria-label="Visit GitHub profile">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">GitHub</h3>
-                            <span class="social-handle">@badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://twitter.com/badalmeher" target="_blank" rel="noopener noreferrer" class="social-card twitter reveal-up" aria-label="Visit X profile">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-x-twitter" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">X / Twitter</h3>
-                            <span class="social-handle">@badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://t.me/badalmeher" target="_blank" rel="noopener noreferrer" class="social-card telegram reveal-up" aria-label="Visit Telegram channel">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-telegram-plane" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">Telegram</h3>
-                            <span class="social-handle">@badalmeher</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="social-card whatsapp reveal-up" aria-label="Chat on WhatsApp">
-                        <div class="social-icon-wrapper">
-                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">WhatsApp</h3>
-                            <span class="social-handle">Direct Message</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="mailto:hello@badalmeher.com" class="social-card email reveal-up" aria-label="Send email">
-                        <div class="social-icon-wrapper">
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-info">
-                            <h3 class="social-name">Email</h3>
-                            <span class="social-handle">hello@badalmeher.com</span>
-                        </div>
-                        <div class="social-arrow">
-                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="social-glow" aria-hidden="true"></div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============================================ -->
-        <!-- CONTACT SECTION                              -->
-        <!-- ============================================ -->
-        <section id="contact" class="contact-section" aria-labelledby="contact-heading">
-            <div class="section-container">
-                <div class="section-header reveal-up">
-                    <span class="section-eyebrow">Get In Touch</span>
-                    <h2 id="contact-heading" class="section-title">Let's Build<br><span class="title-highlight">Something Great</span></h2>
-                </div>
-
-                <div class="contact-grid">
-                    <div class="contact-info reveal-left">
-                        <div class="contact-info-card glass-card">
-                            <h3 class="contact-info-title">Start a Conversation</h3>
-                            <p class="contact-info-text">
-                                Whether you have a project in mind, want to collaborate, or just want to say hello, 
-                                I'd love to hear from you. I typically respond within 24 hours.
-                            </p>
-
-                            <div class="contact-details">
-                                <div class="contact-detail-item">
-                                    <div class="detail-icon">
-                                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="detail-content">
-                                        <span class="detail-label">Email</span>
-                                        <a href="mailto:hello@badalmeher.com" class="detail-value">hello@badalmeher.com</a>
-                                    </div>
-                                </div>
-
-                                <div class="contact-detail-item">
-                                    <div class="detail-icon">
-                                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="detail-content">
-                                        <span class="detail-label">Location</span>
-                                        <span class="detail-value">Global / Remote</span>
-                                    </div>
-                                </div>
-
-                                <div class="contact-detail-item">
-                                    <div class="detail-icon">
-                                        <i class="fas fa-clock" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="detail-content">
-                                        <span class="detail-label">Availability</span>
-                                        <span class="detail-value">Mon - Fri, 9AM - 6PM</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="contact-form-wrapper reveal-right">
-                        <form class="contact-form glass-card" id="contact-form" novalidate>
-                            <div class="form-header">
-                                <h3 class="form-title">Send Message</h3>
-                                <p class="form-subtitle">Fill out the form below and I'll get back to you shortly.</p>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contact-name" class="form-label">
-                                    <i class="fas fa-user" aria-hidden="true"></i>
-                                    Full Name
-                                </label>
-                                <input 
-                                    type="text" 
-                                    id="contact-name" 
-                                    name="name" 
-                                    class="form-input" 
-                                    placeholder="John Doe"
-                                    required
-                                    minlength="2"
-                                    maxlength="100"
-                                    autocomplete="name"
-                                    aria-required="true"
-                                >
-                                <span class="form-error" id="name-error">Please enter your name (2-100 characters)</span>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contact-email" class="form-label">
-                                    <i class="fas fa-envelope" aria-hidden="true"></i>
-                                    Email Address
-                                </label>
-                                <input 
-                                    type="email" 
-                                    id="contact-email" 
-                                    name="email" 
-                                    class="form-input" 
-                                    placeholder="john@example.com"
-                                    required
-                                    autocomplete="email"
-                                    aria-required="true"
-                                >
-                                <span class="form-error" id="email-error">Please enter a valid email address</span>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contact-phone" class="form-label">
-                                    <i class="fas fa-phone" aria-hidden="true"></i>
-                                    Phone Number <span class="label-optional">(Optional)</span>
-                                </label>
-                                <input 
-                                    type="tel" 
-                                    id="contact-phone" 
-                                    name="phone" 
-                                    class="form-input" 
-                                    placeholder="+1 (555) 000-0000"
-                                    autocomplete="tel"
-                                    pattern="[\+]?[0-9\s\-\(\)]+"
-                                >
-                                <span class="form-error" id="phone-error">Please enter a valid phone number</span>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contact-message" class="form-label">
-                                    <i class="fas fa-comment-alt" aria-hidden="true"></i>
-                                    Message
-                                </label>
-                                <textarea 
-                                    id="contact-message" 
-                                    name="message" 
-                                    class="form-input form-textarea" 
-                                    placeholder="Tell me about your project, idea, or just say hello..."
-                                    required
-                                    minlength="10"
-                                    maxlength="2000"
-                                    rows="5"
-                                    aria-required="true"
-                                ></textarea>
-                                <span class="form-error" id="message-error">Please enter a message (10-2000 characters)</span>
-                                <div class="char-counter">
-                                    <span id="char-count">0</span> / 2000
-                                </div>
-                            </div>
-
-                            <!-- Honeypot field for spam protection -->
-                            <div class="form-group honeypot" aria-hidden="true">
-                                <label for="website">Website</label>
-                                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
-                            </div>
-
-                            <div class="form-actions">
-                                <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
-                                    <span class="btn-text">Send Message</span>
-                                    <span class="btn-icon"><i class="fas fa-paper-plane" aria-hidden="true"></i></span>
-                                    <div class="btn-loader" aria-hidden="true">
-                                        <div class="loader-spinner"></div>
-                                    </div>
-                                </button>
-                            </div>
-
-                            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- ============================================ -->
-    <!-- FOOTER                                       -->
-    <!-- ============================================ -->
-    <footer class="site-footer" role="contentinfo">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <a href="#hero" class="footer-logo">
-                        <span class="logo-text">Badal<span class="logo-accent">Meher</span></span>
-                    </a>
-                    <p class="footer-tagline">Building the future, one line of code at a time.</p>
-                </div>
-
-                <nav class="footer-nav" aria-label="Footer navigation">
-                    <div class="footer-nav-column">
-                        <h4 class="footer-nav-title">Navigation</h4>
-                        <ul class="footer-nav-list">
-                            <li><a href="#hero" class="footer-link">Home</a></li>
-                            <li><a href="#about" class="footer-link">About</a></li>
-                            <li><a href="#gallery" class="footer-link">Gallery</a></li>
-                            <li><a href="#social" class="footer-link">Connect</a></li>
-                            <li><a href="#contact" class="footer-link">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-nav-column">
-                        <h4 class="footer-nav-title">Social</h4>
-                        <ul class="footer-nav-list">
-                            <li><a href="https://youtube.com/@badalmeher" target="_blank" rel="noopener noreferrer" class="footer-link">YouTube</a></li>
-                            <li><a href="https://instagram.com/badalmeher" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a></li>
-                            <li><a href="https://linkedin.com/in/badalmeher" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a></li>
-                            <li><a href="https://github.com/badalmeher" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a></li>
-                            <li><a href="https://twitter.com/badalmeher" target="_blank" rel="noopener noreferrer" class="footer-link">X / Twitter</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-nav-column">
-                        <h4 class="footer-nav-title">Legal</h4>
-                        <ul class="footer-nav-list">
-                            <li><a href="#" class="footer-link" onclick="alert('Privacy Policy coming soon'); return false;">Privacy Policy</a></li>
-                            <li><a href="#" class="footer-link" onclick="alert('Terms of Service coming soon'); return false;">Terms of Service</a></li>
-                            <li><a href="#" class="footer-link" onclick="alert('Cookie Policy coming soon'); return false;">Cookie Policy</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-
-            <div class="footer-bottom">
-                <p class="footer-copyright">
-                    &copy; <span id="current-year">2024</span> Badal Meher. All rights reserved.
-                </p>
-                <p class="footer-credit">
-                    Crafted with <i class="fas fa-heart" aria-hidden="true"></i> and precision
-                </p>
+                    <h4 class="font-bold text-sm mb-1">X (Twitter)</h4>
+                    <p class="text-[10px] text-gray-500 mb-4">@MeherBadda46460</p>
+                    <span class="text-[10px] font-bold text-accent group-hover:underline">Follow</span>
+                </a>
             </div>
         </div>
+    </section>
 
-        <div class="footer-glow" aria-hidden="true"></div>
+    <!-- Contact Section -->
+    <section id="contact" class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold mb-4">Get In <span class="text-accent">Touch</span></h2>
+                <p class="text-gray-400">Have a project idea or just want to say hello? I'd love to hear from you.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Contact Info -->
+                <div class="space-y-6 reveal">
+                    <div class="glass-card p-6 flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-accent">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm">Email</h4>
+                            <p class="text-gray-400 text-xs">meherdevelopstudio@gmail.com</p> <!-- Placeholder email -->
+                        </div>
+                    </div>
+                    <div class="glass-card p-6 flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-accent">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm">Location</h4>
+                            <p class="text-gray-400 text-xs">Odisha, India</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-6 flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-accent">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm">Studio</h4>
+                            <p class="text-gray-400 text-xs">MeherDevelopStudio</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-500 text-sm italic pt-4">
+                        "Or reach me directly on any social platform above"
+                    </p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="md:col-span-2 reveal">
+                    <div class="glass-card p-2 overflow-hidden">
+                        <!-- Replace GOOGLE_FORM_EMBED_URL_HERE with your Google Form embedded link from Google Forms > Send > Embed -->
+                        <iframe 
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSfD_X-S-N-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X/viewform?embedded=true" 
+                            width="100%" 
+                            height="600" 
+                            frameborder="0" 
+                            marginheight="0" 
+                            marginwidth="0"
+                            style="border-radius:12px; filter: invert(0.9) hue-rotate(180deg) brightness(1.2);">
+                            Loading…
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://www.instagram.com/baddalmeher" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100093795970471" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.snapchat.com/add/baddalmeher" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-snapchat"></i></a>
+                <a href="https://www.threads.com/@baddalmeher" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-threads"></i></a>
+                <a href="https://x.com/MeherBadda46460" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-x-twitter"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">
+                &copy; 2025 Badal Meher &middot; MeherDevelopStudio &middot; Made with ❤️ in Odisha, India
+            </p>
+        </div>
     </footer>
 
-    <!-- ============================================ -->
-    <!-- BACK TO TOP BUTTON                           -->
-    <!-- ============================================ -->
-    <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
-        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    <!-- Back to Top -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-accent text-white rounded-full shadow-[0_0_20px_rgba(41,121,255,0.6)] flex items-center justify-center transform translate-y-24 transition-all duration-300 hover:scale-110 z-50">
+        <i class="fas fa-arrow-up"></i>
     </button>
 
-    <!-- ============================================ -->
-    <!-- SCRIPTS                                      -->
-    <!-- ============================================ -->
-    <script src="js/main.js" defer></script>
+    <!-- Lightbox -->
+    <div id="lightbox" onclick="this.style.display='none'">
+        <img id="lightbox-img" src="" alt="Enlarged view">
+    </div>
+
+    <script>
+        // Typewriter Effect
+        const typewriterElement = document.getElementById('typewriter');
+        const phrases = [
+            "App Developer",
+            "Indie Builder",
+            "Founder @ MeherDevelopStudio",
+            "Creator of Tagown, ToolZen & More"
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typeSpeed = 100;
+
+        function type() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typewriterElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+                typeSpeed = 50;
+            } else {
+                typewriterElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+                typeSpeed = 100;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                isDeleting = true;
+                typeSpeed = 2000; // Pause at end
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(type, typeSpeed);
+        }
+
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('glass-card', 'py-2');
+                navbar.classList.remove('py-4');
+            } else {
+                navbar.classList.remove('glass-card', 'py-2');
+                navbar.classList.add('py-4');
+            }
+            
+            // Back to top button
+            const backToTop = document.getElementById('back-to-top');
+            if (window.scrollY > 300) {
+                backToTop.classList.remove('translate-y-24');
+            } else {
+                backToTop.classList.add('translate-y-24');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const icon = menuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                const icon = menuBtn.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            });
+        });
+
+        // Reveal Animations on Scroll
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // Back to Top Click
+        document.getElementById('back-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Lightbox
+        function openLightbox(src) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = src;
+            lightbox.style.display = 'flex';
+        }
+
+        // Image Protection
+        document.addEventListener('contextmenu', (e) => {
+            if (e.target.tagName === 'IMG') {
+                e.preventDefault();
+            }
+        });
+
+        // Initialize Typewriter
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(type, 1000);
+            
+            // Page Load Fade-in
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 1s ease-in';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 10);
+        });
+    </script>
 </body>
 </html>
